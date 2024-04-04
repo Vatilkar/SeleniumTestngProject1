@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T20:33:02 IST" name="Suite" finished-at="2024-04-04T20:34:10 IST" duration-ms="67570">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T20:33:02 IST" name="Test" finished-at="2024-04-04T20:34:10 IST" duration-ms="67570">
+      <class name="com.TestCases.RegisterTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:28 IST" name="launchBrowser" finished-at="2024-04-04T20:33:36 IST" duration-ms="8837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyInvalidRegistration()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:36 IST" name="verifyInvalidRegistration" finished-at="2024-04-04T20:33:39 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidRegistration -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:39 IST" name="quitBrowser" finished-at="2024-04-04T20:33:39 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:39 IST" name="launchBrowser" finished-at="2024-04-04T20:33:48 IST" duration-ms="9316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyValidRegistration()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:48 IST" name="verifyValidRegistration" finished-at="2024-04-04T20:33:51 IST" duration-ms="2269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidRegistration -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestCases.RegisterTestCases@1bb5a082]" started-at="2024-04-04T20:33:51 IST" name="quitBrowser" finished-at="2024-04-04T20:33:51 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TestCases.RegisterTestCases -->
+      <class name="com.TestCases.LoginTestCases">
+        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:01 IST" name="ExtentReport" finished-at="2024-04-04T20:33:02 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:02 IST" name="launchBrowser" finished-at="2024-04-04T20:33:15 IST" duration-ms="12867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="InvalidLogin()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:15 IST" name="InvalidLogin" finished-at="2024-04-04T20:33:17 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:17 IST" name="quitBrowser" finished-at="2024-04-04T20:33:18 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:18 IST" name="launchBrowser" finished-at="2024-04-04T20:33:26 IST" duration-ms="7526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="ValidLogin()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:26 IST" name="ValidLogin" finished-at="2024-04-04T20:33:27 IST" duration-ms="1724" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/logout']"}
+  (Session info: chrome=123.0.6312.88)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57bd20acae8bd84d74e6717740e6d73b, findElement {value=//a[@href='/logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62498/devtoo..., se:cdpVersion: 123.0.6312.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57bd20acae8bd84d74e6717740e6d73b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/logout']"}
+  (Session info: chrome=123.0.6312.88)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57bd20acae8bd84d74e6717740e6d73b, findElement {value=//a[@href='/logout'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.88, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62498}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62498/devtoo..., se:cdpVersion: 123.0.6312.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57bd20acae8bd84d74e6717740e6d73b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at pageObjectsModel.LoginPageObjects.readLogout(LoginPageObjects.java:40)
+at com.TestCases.LoginTestCases.ValidLogin(LoginTestCases.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:33:27 IST" name="quitBrowser" finished-at="2024-04-04T20:33:28 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.TestCases.LoginTestCases@77888435]" started-at="2024-04-04T20:34:10 IST" name="endReport" finished-at="2024-04-04T20:34:11 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.TestCases.LoginTestCases -->
+      <class name="com.TestCases.AddToCartTestCase">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestCases.AddToCartTestCase@78691363]" started-at="2024-04-04T20:33:51 IST" name="launchBrowser" finished-at="2024-04-04T20:34:01 IST" duration-ms="10197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyAmountOfProdInCart()[pri:0, instance:com.TestCases.AddToCartTestCase@78691363]" started-at="2024-04-04T20:34:01 IST" name="verifyAmountOfProdInCart" finished-at="2024-04-04T20:34:09 IST" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmountOfProdInCart -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.TestCases.AddToCartTestCase@78691363]" started-at="2024-04-04T20:34:09 IST" name="quitBrowser" finished-at="2024-04-04T20:34:10 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.TestCases.AddToCartTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
